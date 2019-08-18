@@ -1,0 +1,27 @@
+PODS:
+  - AlipaySDK-iOS (15.5.9)
+  - AliPayTool (0.1.0):
+    - AlipaySDK-iOS
+    - LXNOpenSSL
+  - LXNOpenSSL (1.0.0)
+
+DEPENDENCIES:
+  - AliPayTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
+    - LXNOpenSSL
+
+EXTERNAL SOURCES:
+  AliPayTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  AliPayTool: 31de3b71ab22d4ffa192d2090210fc59497ffd4c
+  LXNOpenSSL: c352e5a3ec0d1b1f3b9e64771e5dec28158caaaf
+
+PODFILE CHECKSUM: 8c42210011165c8efa46e402d81085f1aba1dd2d
+
+COCOAPODS: 1.7.5

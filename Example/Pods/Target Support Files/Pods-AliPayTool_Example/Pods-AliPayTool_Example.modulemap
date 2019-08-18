@@ -1,0 +1,6 @@
+framework module Pods_AliPayTool_Example {
+  umbrella header "Pods-AliPayTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
