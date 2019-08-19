@@ -93,123 +93,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012EC11DEA1FF666ED77C883C90089AB /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = LXNOpenSSL/Classes/openssl/x509_vfy.h; sourceTree = "<group>"; };
 		057FAAAC4195D544AA94DC04CF293220 /* openssl_wrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_wrapper.h; path = AliPayTool/Classes/openssl_wrapper.h; sourceTree = "<group>"; };
-		0689223EAE08B6A82D89CC41448E408B /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = LXNOpenSSL/Classes/openssl/md4.h; sourceTree = "<group>"; };
-		0923C0BF735E66FFB65610EFD2C0673E /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = LXNOpenSSL/Classes/openssl/x509.h; sourceTree = "<group>"; };
-		0A082438D785558CCA883CFB5B337907 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = LXNOpenSSL/Classes/openssl/kssl.h; sourceTree = "<group>"; };
-		0ABF9EDFEB21E25FADF40D37EC7C225B /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = LXNOpenSSL/Classes/openssl/ssl2.h; sourceTree = "<group>"; };
 		0B919B6CF90055B6D46269C5B141A1DB /* Pods-AliPayTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPayTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0F0A1FD49305F4179B0F5E238D411EC4 /* Pods-AliPayTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPayTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1506FF43FE093EB217F6A7B4A71747CD /* LXNOpenSSL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXNOpenSSL.xcconfig; sourceTree = "<group>"; };
-		15D95217F5EB4408C8BE63CC4D0D2B7A /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = LXNOpenSSL/Classes/openssl/pkcs12.h; sourceTree = "<group>"; };
 		185DBEA2D2711E431701934EA40DEE8A /* Pods-AliPayTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliPayTool_Example-resources.sh"; sourceTree = "<group>"; };
 		1A02CF51B0C84B81B59C04ED34026D89 /* AliPayTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AliPayTool-Info.plist"; sourceTree = "<group>"; };
-		1AE12007C514A8859D01D6441B05616E /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = LXNOpenSSL/Classes/openssl/ssl23.h; sourceTree = "<group>"; };
-		1B09968B89AE8F3369C7CD3EAA013B6A /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = LXNOpenSSL/Classes/openssl/opensslconf.h; sourceTree = "<group>"; };
-		1DCDA0F82860B1BFF9E446793725E3BA /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = LXNOpenSSL/Classes/openssl/blowfish.h; sourceTree = "<group>"; };
+		1B58970FA56AA538917C7EF084D57824 /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSSL.framework; path = LXNOpenSSL/Classes/OpenSSL.framework; sourceTree = "<group>"; };
 		201741F82EE5B55F4800264ADBBD3910 /* Pods-AliPayTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliPayTool_Example-dummy.m"; sourceTree = "<group>"; };
 		204E63A7E61C096A0542A7CA31475BFA /* APRSASigner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APRSASigner.h; path = AliPayTool/Classes/APRSASigner.h; sourceTree = "<group>"; };
-		2157DDD2B72EA7E67DB151D8487645D8 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = LXNOpenSSL/Classes/openssl/srp.h; sourceTree = "<group>"; };
-		2588261D70F173B8FE235AB535DACF9B /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = LXNOpenSSL/Classes/openssl/idea.h; sourceTree = "<group>"; };
-		26FD937C6278F273A16FB0AF6F9A4367 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = LXNOpenSSL/Classes/openssl/cms.h; sourceTree = "<group>"; };
-		3133D742643D3D99B8C51AA9EA7FD389 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = LXNOpenSSL/Classes/openssl/krb5_asn.h; sourceTree = "<group>"; };
 		3196977515C131DD1656A3F84D4328E5 /* AliPayTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AliPayTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33AD891F72C12574E42943131D1FBEFB /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = LXNOpenSSL/Classes/libssl.a; sourceTree = "<group>"; };
-		3480DBFD61AF03F5A3BB40C97407E9D7 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
-		3496285EA740A6349570C404CD48C70C /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = LXNOpenSSL/Classes/openssl/des.h; sourceTree = "<group>"; };
 		37605F7029CBA458A18C37AF2ACB7F8F /* Pods-AliPayTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPayTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3A825C9AAA6A20BC41D590C52F6BDAB9 /* APRSASigner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APRSASigner.m; path = AliPayTool/Classes/APRSASigner.m; sourceTree = "<group>"; };
+		3C7F8B1E9839E670D63F93705962CB5F /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		3D722CE161E3EFF5F8A6A7A6CEAB1317 /* Pods_AliPayTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliPayTool_Example.framework; path = "Pods-AliPayTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40613A4AB97D3A095AE0380FCA75C0CC /* AliPayTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliPayTool-umbrella.h"; sourceTree = "<group>"; };
-		43B53D76B8A106169E829CE4C9937BBC /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = LXNOpenSSL/Classes/openssl/camellia.h; sourceTree = "<group>"; };
-		45BC6228FF5328FF1F6ACABB08C5C4B6 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = LXNOpenSSL/Classes/openssl/txt_db.h; sourceTree = "<group>"; };
-		4AAC4B3D0DA25387AE6056DB116C4241 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = LXNOpenSSL/Classes/openssl/dtls1.h; sourceTree = "<group>"; };
-		4AB9C9995BBB28D6830F3257C757437E /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = LXNOpenSSL/Classes/openssl/x509v3.h; sourceTree = "<group>"; };
-		4BDA51C300A94F8CBCFF83CBC0F7559C /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = LXNOpenSSL/Classes/openssl/bn.h; sourceTree = "<group>"; };
-		4E394965B1130AB0CCFE6AF804948B69 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = LXNOpenSSL/Classes/openssl/hmac.h; sourceTree = "<group>"; };
-		512727E6730412498ED14330CE805173 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = LXNOpenSSL/Classes/openssl/opensslv.h; sourceTree = "<group>"; };
 		51D72331C0E5CC6E92773DB3C03EB30C /* AliPayTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliPayTool.framework; path = AliPayTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53102379822533710214CF21545CF617 /* APOrderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APOrderInfo.h; path = AliPayTool/Classes/APOrderInfo.h; sourceTree = "<group>"; };
-		533C6098B32C0475C60FEECEDF513A08 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = LXNOpenSSL/Classes/openssl/symhacks.h; sourceTree = "<group>"; };
 		58B9724C15096E32920F04D183530A03 /* Pods-AliPayTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPayTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5A10388C02154D06427D567139492F0F /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = LXNOpenSSL/Classes/openssl/ecdh.h; sourceTree = "<group>"; };
-		5A28BD36E4B31A829558C1EEC33AD899 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = LXNOpenSSL/Classes/openssl/ui_compat.h; sourceTree = "<group>"; };
-		5BCCE641A2051165907485C69583A8C4 /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
-		5CB2D98F47692D4F78F2C0CF7029F57E /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = LXNOpenSSL/Classes/openssl/ocsp.h; sourceTree = "<group>"; };
-		5D0DD0D74DB7E9F1DE57D2598B102006 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = LXNOpenSSL/Classes/openssl/stack.h; sourceTree = "<group>"; };
 		5E4583415E1BACE7F9A90A3B8B03B8B3 /* AliPayTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AliPayTool.modulemap; sourceTree = "<group>"; };
-		61B2CCBD994C5CCADAC296E01AB75F36 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = LXNOpenSSL/Classes/libcrypto.a; sourceTree = "<group>"; };
-		627EEEA815F646DB4B7A7A70220E62B2 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = LXNOpenSSL/Classes/openssl/rc4.h; sourceTree = "<group>"; };
-		6319DD2BA0D55D0CC6D690E46D61AFAD /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = LXNOpenSSL/Classes/openssl/ts.h; sourceTree = "<group>"; };
-		631B9416B4A1F4EAEF86DBBBF357A99E /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = LXNOpenSSL/Classes/openssl/evp.h; sourceTree = "<group>"; };
-		639144C8A7B463E1F28C806FA6A9F8B7 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = LXNOpenSSL/Classes/openssl/sha.h; sourceTree = "<group>"; };
 		654432859EFFF656263ADA6D39601396 /* openssl_wrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = openssl_wrapper.m; path = AliPayTool/Classes/openssl_wrapper.m; sourceTree = "<group>"; };
-		67B8282C2ABC145EE57F13DD3ACA1617 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = LXNOpenSSL/Classes/openssl/modes.h; sourceTree = "<group>"; };
-		67F2086C984B467DCC75B1F6C4824493 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = LXNOpenSSL/Classes/openssl/asn1t.h; sourceTree = "<group>"; };
 		6908ED44E15229B0748189FEB5F6C9DB /* AliPayTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliPayTool-dummy.m"; sourceTree = "<group>"; };
 		697AF4508C4D3E145BA92013BC65C289 /* Pods-AliPayTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliPayTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		69C167970D1C7EADDC3225CDBA5AD414 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6A2C45809FE4B9AF1833D42D77E12710 /* AliPayTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPayTool.xcconfig; sourceTree = "<group>"; };
-		6C7D6C249DC03EFA2C724CA3C50D90DC /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = LXNOpenSSL/Classes/openssl/ripemd.h; sourceTree = "<group>"; };
-		70EF74AD37A81F9600714EF1611DF637 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = LXNOpenSSL/Classes/openssl/rand.h; sourceTree = "<group>"; };
-		737F0DAE87B1594BE6888A715753D5AB /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = LXNOpenSSL/Classes/openssl/asn1.h; sourceTree = "<group>"; };
-		784634CB2254411FDC86A8A8ACF8E5B6 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = LXNOpenSSL/Classes/openssl/engine.h; sourceTree = "<group>"; };
-		7D1358626039F2987AE4B60ED0493794 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = LXNOpenSSL/Classes/openssl/buffer.h; sourceTree = "<group>"; };
+		71F3C1E9234640EF645D3FE9855292E8 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		7F8C8F59628151231704A6B1F74A2385 /* Pods-AliPayTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliPayTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83084E4E77F8D0E5AAE9D859576E036E /* Pods-AliPayTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliPayTool_Example.modulemap"; sourceTree = "<group>"; };
 		859F8636A903318616A024898E75EE25 /* Pods-AliPayTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliPayTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		883C54B16AD529260A5B1D735C2B2CDE /* AlipaySDK-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.xcconfig"; sourceTree = "<group>"; };
 		89596349E8C452EE777AC328F2AE2D68 /* Pods-AliPayTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPayTool_Example-Info.plist"; sourceTree = "<group>"; };
 		8C686E29C4EEBE09FC4B769C70834D25 /* Pods-AliPayTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AliPayTool_Tests.modulemap"; sourceTree = "<group>"; };
-		8DB4A66617E2B55217134E2D8A91830E /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = LXNOpenSSL/Classes/openssl/cmac.h; sourceTree = "<group>"; };
 		931A774B6FBF3AFCA0B7F4841BF778E6 /* APAuthInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAuthInfo.m; path = AliPayTool/Classes/APAuthInfo.m; sourceTree = "<group>"; };
-		96629FF00ECBE7A4D30E3D9C47596D7B /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = LXNOpenSSL/Classes/openssl/aes.h; sourceTree = "<group>"; };
-		97769262B45DBE5288BC98793E14DEAE /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = LXNOpenSSL/Classes/openssl/rc2.h; sourceTree = "<group>"; };
-		9789D17D54A55A7BDFA162F519C779AD /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = LXNOpenSSL/Classes/openssl/ecdsa.h; sourceTree = "<group>"; };
 		991104EF6FCC859972F88E687A998459 /* Pods_AliPayTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliPayTool_Tests.framework; path = "Pods-AliPayTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A98FF0A9D6B97F58715A491A6BD41C3 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = LXNOpenSSL/Classes/openssl/objects.h; sourceTree = "<group>"; };
-		9AC86A2A241D15067FDA89A99D5BBC9C /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = LXNOpenSSL/Classes/openssl/comp.h; sourceTree = "<group>"; };
-		9CEE234CBCD067EEA122EE2DFA2D0320 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = LXNOpenSSL/Classes/openssl/md5.h; sourceTree = "<group>"; };
-		9D24B87101D899CF73434FE3A6916590 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = LXNOpenSSL/Classes/openssl/whrlpool.h; sourceTree = "<group>"; };
 		9D86E57C691C6DE37C2558E20CF26651 /* APOrderInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APOrderInfo.m; path = AliPayTool/Classes/APOrderInfo.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6A960C5062BE2072C6D2C3CC15374BC /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = LXNOpenSSL/Classes/openssl/pkcs7.h; sourceTree = "<group>"; };
-		A6C50C4395C84DE807E375A4F02F0EE2 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = LXNOpenSSL/Classes/openssl/crypto.h; sourceTree = "<group>"; };
-		A7AEEF181F941FF48669E1D03C24F81B /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = LXNOpenSSL/Classes/openssl/err.h; sourceTree = "<group>"; };
-		AC3F6475AA786D7F7DE79E543BA24650 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = LXNOpenSSL/Classes/openssl/asn1_mac.h; sourceTree = "<group>"; };
 		AD993690A9C7F7BE8204E68C0D1486E3 /* Pods-AliPayTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliPayTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		AFB5C94A216DFBD0B7AF51F438165A6E /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
-		B00232416E95405F20DDCD9D4FC027D2 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = LXNOpenSSL/Classes/openssl/mdc2.h; sourceTree = "<group>"; };
-		B45B3F55378C41A8759B256521809280 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = LXNOpenSSL/Classes/openssl/dso.h; sourceTree = "<group>"; };
-		B57BBDB4629D42C323C077057EE7D2DC /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = LXNOpenSSL/Classes/openssl/lhash.h; sourceTree = "<group>"; };
-		B7B43521CD8176E7AF856B2706B92257 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = LXNOpenSSL/Classes/openssl/srtp.h; sourceTree = "<group>"; };
-		B8B03DF0C68EDA6EDAE0367363D6838D /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = LXNOpenSSL/Classes/openssl/pqueue.h; sourceTree = "<group>"; };
 		BC7D95542F90966E94D2E1908187104F /* Pods-AliPayTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPayTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		BE7B2D8605914BCFF8DAA70E08A3784B /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = LXNOpenSSL/Classes/openssl/cast.h; sourceTree = "<group>"; };
-		C02CCE92770037FE6614195E0FA7E478 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = LXNOpenSSL/Classes/openssl/dsa.h; sourceTree = "<group>"; };
-		C30F21E5C21E23ACFAF051FAB9EDAF32 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = LXNOpenSSL/Classes/openssl/tls1.h; sourceTree = "<group>"; };
-		C46321E9D3DA520B8E61918956F69BBB /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = LXNOpenSSL/Classes/openssl/seed.h; sourceTree = "<group>"; };
-		C5C9621F22CFA6ACABA076E863764324 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = LXNOpenSSL/Classes/openssl/pem.h; sourceTree = "<group>"; };
-		C817D85BB54E206C280B4AF2218AE7E6 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = LXNOpenSSL/Classes/openssl/ssl3.h; sourceTree = "<group>"; };
 		CB633C4EEFF45ADD11E37BC0DD33DD48 /* Pods-AliPayTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliPayTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC416BE02F7A6DBD2F6FC3FF23CC6E72 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = LXNOpenSSL/Classes/openssl/ossl_typ.h; sourceTree = "<group>"; };
-		CCB99045903652E1AB3E1C36D1130A91 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = LXNOpenSSL/Classes/openssl/des_old.h; sourceTree = "<group>"; };
-		CDB2A031A8D47BCDEB0CB670391F127D /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = LXNOpenSSL/Classes/openssl/conf.h; sourceTree = "<group>"; };
-		CE1578C7FC295C4D4658315B5BB451B1 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = LXNOpenSSL/Classes/openssl/ui.h; sourceTree = "<group>"; };
-		D19695FC95083208BC049123DC81BB1C /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = LXNOpenSSL/Classes/openssl/pem2.h; sourceTree = "<group>"; };
-		D37E89498A28CFA2FBAC7D648A626962 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = LXNOpenSSL/Classes/openssl/safestack.h; sourceTree = "<group>"; };
-		D4AC488C42B3A1FC839800FC594D8464 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = LXNOpenSSL/Classes/openssl/rsa.h; sourceTree = "<group>"; };
-		D5897CC9D917C9626560E1BA4A061658 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = LXNOpenSSL/Classes/openssl/ssl.h; sourceTree = "<group>"; };
-		D8EDC75E3AAE35A144D52F4A8A2A577A /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = LXNOpenSSL/Classes/openssl/ec.h; sourceTree = "<group>"; };
+		D35D7E1EC0AAD5583F5CC5A5C8083B3C /* LXNOpenSSL.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXNOpenSSL.xcconfig; sourceTree = "<group>"; };
 		DB6725575DDECC722E8F76AF024800FD /* Pods-AliPayTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliPayTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E24D698D8C74692899E48610D200D61F /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = LXNOpenSSL/Classes/openssl/e_os2.h; sourceTree = "<group>"; };
-		E3088A097EDC01761AF3FE3BC1D36AAE /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = LXNOpenSSL/Classes/openssl/conf_api.h; sourceTree = "<group>"; };
-		E30BAA9636417835E1BEEAB35B90496E /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = LXNOpenSSL/Classes/openssl/dh.h; sourceTree = "<group>"; };
 		E7420FB28B8A3ECD9432A52D8D6B775A /* Pods-AliPayTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliPayTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		ED27E511261F351FD00A4792E5E73072 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = LXNOpenSSL/Classes/openssl/ebcdic.h; sourceTree = "<group>"; };
-		EDF4C8E18360FBA6C99F395453B0B5EE /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = LXNOpenSSL/Classes/openssl/obj_mac.h; sourceTree = "<group>"; };
-		EEE824D4E69BAC5109091615763319B3 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = LXNOpenSSL/Classes/openssl/bio.h; sourceTree = "<group>"; };
 		F1B9C5FC02469681D2CBA31032DD1C28 /* AliPayTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliPayTool-prefix.pch"; sourceTree = "<group>"; };
 		F75C168D772FDF579A66D2B4859B5AC8 /* APAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAuthInfo.h; path = AliPayTool/Classes/APAuthInfo.h; sourceTree = "<group>"; };
 		FBADBA1B3A071154CFE45751ED2A9928 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
@@ -243,15 +167,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05EC895B5E8D966AE4512A61E35C2D9C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FEE404CF0719B802C34A9474BFBA5197 /* AlipaySDK-iOS */,
-				CA2EF4F5697577560CDDB5C0D66E125E /* LXNOpenSSL */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		07FFB5BFBA04A3622E8ACDF226251A12 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +177,24 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		23F81CDEBA63A993A723C11AC9E0DF0C /* LXNOpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				3548AA57A822ED2BACCF37DF73CCB0D7 /* Frameworks */,
+				7B9507A2264BCB043B9E3129D83DF077 /* Support Files */,
+			);
+			name = LXNOpenSSL;
+			path = LXNOpenSSL;
+			sourceTree = "<group>";
+		};
+		24F0BDE2F21167B9247054185A988ABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71F3C1E9234640EF645D3FE9855292E8 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2F00F9176EC51D21E391A0724B19671C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,13 +203,21 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2F032AB210EDC9664CCFF91F1BBAED2E /* Support Files */ = {
+		3548AA57A822ED2BACCF37DF73CCB0D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1506FF43FE093EB217F6A7B4A71747CD /* LXNOpenSSL.xcconfig */,
+				1B58970FA56AA538917C7EF084D57824 /* OpenSSL.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/LXNOpenSSL";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EAE88008BAE5C89B4CCE8CCF6EED280 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA1830BAF37F7195A703940D50882E55 /* AlipaySDK-iOS */,
+				23F81CDEBA63A993A723C11AC9E0DF0C /* LXNOpenSSL */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		519357D9349C7D69CDDFC744B9640B17 /* Pods-AliPayTool_Example */ = {
@@ -320,32 +261,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FCEA45152A993E28977766ABFC4C8AC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3480DBFD61AF03F5A3BB40C97407E9D7 /* AlipaySDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		695710F5054987339536ACBE7D73C5DD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5BCCE641A2051165907485C69583A8C4 /* AlipaySDK-iOS.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AlipaySDK-iOS";
-			sourceTree = "<group>";
-		};
-		6F7F98ABE349397811A48F0F6627436E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				61B2CCBD994C5CCADAC296E01AB75F36 /* libcrypto.a */,
-				33AD891F72C12574E42943131D1FBEFB /* libssl.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		747DEF129B1A1611FC804A8B94D742E1 /* Pods-AliPayTool_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +275,23 @@
 			);
 			name = "Pods-AliPayTool_Tests";
 			path = "Target Support Files/Pods-AliPayTool_Tests";
+			sourceTree = "<group>";
+		};
+		7B9507A2264BCB043B9E3129D83DF077 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35D7E1EC0AAD5583F5CC5A5C8083B3C /* LXNOpenSSL.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LXNOpenSSL";
+			sourceTree = "<group>";
+		};
+		83FD7ED818467A15A008EECEA0982FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7F8B1E9839E670D63F93705962CB5F /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		91D9B273B58BA27796F2ACFC46AAB3E6 /* AliPayTool */ = {
@@ -389,12 +321,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A9977012504A9CA9CA466C4660D99004 /* Frameworks */ = {
+		A12D0645CCEC655020FB671B7B41A163 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AFB5C94A216DFBD0B7AF51F438165A6E /* AlipaySDK.framework */,
+				883C54B16AD529260A5B1D735C2B2CDE /* AlipaySDK-iOS.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		BA1830BAF37F7195A703940D50882E55 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83FD7ED818467A15A008EECEA0982FEF /* Frameworks */,
+				24F0BDE2F21167B9247054185A988ABE /* Resources */,
+				A12D0645CCEC655020FB671B7B41A163 /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -405,98 +349,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CA2EF4F5697577560CDDB5C0D66E125E /* LXNOpenSSL */ = {
-			isa = PBXGroup;
-			children = (
-				96629FF00ECBE7A4D30E3D9C47596D7B /* aes.h */,
-				737F0DAE87B1594BE6888A715753D5AB /* asn1.h */,
-				AC3F6475AA786D7F7DE79E543BA24650 /* asn1_mac.h */,
-				67F2086C984B467DCC75B1F6C4824493 /* asn1t.h */,
-				EEE824D4E69BAC5109091615763319B3 /* bio.h */,
-				1DCDA0F82860B1BFF9E446793725E3BA /* blowfish.h */,
-				4BDA51C300A94F8CBCFF83CBC0F7559C /* bn.h */,
-				7D1358626039F2987AE4B60ED0493794 /* buffer.h */,
-				43B53D76B8A106169E829CE4C9937BBC /* camellia.h */,
-				BE7B2D8605914BCFF8DAA70E08A3784B /* cast.h */,
-				8DB4A66617E2B55217134E2D8A91830E /* cmac.h */,
-				26FD937C6278F273A16FB0AF6F9A4367 /* cms.h */,
-				9AC86A2A241D15067FDA89A99D5BBC9C /* comp.h */,
-				CDB2A031A8D47BCDEB0CB670391F127D /* conf.h */,
-				E3088A097EDC01761AF3FE3BC1D36AAE /* conf_api.h */,
-				A6C50C4395C84DE807E375A4F02F0EE2 /* crypto.h */,
-				3496285EA740A6349570C404CD48C70C /* des.h */,
-				CCB99045903652E1AB3E1C36D1130A91 /* des_old.h */,
-				E30BAA9636417835E1BEEAB35B90496E /* dh.h */,
-				C02CCE92770037FE6614195E0FA7E478 /* dsa.h */,
-				B45B3F55378C41A8759B256521809280 /* dso.h */,
-				4AAC4B3D0DA25387AE6056DB116C4241 /* dtls1.h */,
-				E24D698D8C74692899E48610D200D61F /* e_os2.h */,
-				ED27E511261F351FD00A4792E5E73072 /* ebcdic.h */,
-				D8EDC75E3AAE35A144D52F4A8A2A577A /* ec.h */,
-				5A10388C02154D06427D567139492F0F /* ecdh.h */,
-				9789D17D54A55A7BDFA162F519C779AD /* ecdsa.h */,
-				784634CB2254411FDC86A8A8ACF8E5B6 /* engine.h */,
-				A7AEEF181F941FF48669E1D03C24F81B /* err.h */,
-				631B9416B4A1F4EAEF86DBBBF357A99E /* evp.h */,
-				4E394965B1130AB0CCFE6AF804948B69 /* hmac.h */,
-				2588261D70F173B8FE235AB535DACF9B /* idea.h */,
-				3133D742643D3D99B8C51AA9EA7FD389 /* krb5_asn.h */,
-				0A082438D785558CCA883CFB5B337907 /* kssl.h */,
-				B57BBDB4629D42C323C077057EE7D2DC /* lhash.h */,
-				0689223EAE08B6A82D89CC41448E408B /* md4.h */,
-				9CEE234CBCD067EEA122EE2DFA2D0320 /* md5.h */,
-				B00232416E95405F20DDCD9D4FC027D2 /* mdc2.h */,
-				67B8282C2ABC145EE57F13DD3ACA1617 /* modes.h */,
-				EDF4C8E18360FBA6C99F395453B0B5EE /* obj_mac.h */,
-				9A98FF0A9D6B97F58715A491A6BD41C3 /* objects.h */,
-				5CB2D98F47692D4F78F2C0CF7029F57E /* ocsp.h */,
-				1B09968B89AE8F3369C7CD3EAA013B6A /* opensslconf.h */,
-				512727E6730412498ED14330CE805173 /* opensslv.h */,
-				CC416BE02F7A6DBD2F6FC3FF23CC6E72 /* ossl_typ.h */,
-				C5C9621F22CFA6ACABA076E863764324 /* pem.h */,
-				D19695FC95083208BC049123DC81BB1C /* pem2.h */,
-				15D95217F5EB4408C8BE63CC4D0D2B7A /* pkcs12.h */,
-				A6A960C5062BE2072C6D2C3CC15374BC /* pkcs7.h */,
-				B8B03DF0C68EDA6EDAE0367363D6838D /* pqueue.h */,
-				70EF74AD37A81F9600714EF1611DF637 /* rand.h */,
-				97769262B45DBE5288BC98793E14DEAE /* rc2.h */,
-				627EEEA815F646DB4B7A7A70220E62B2 /* rc4.h */,
-				6C7D6C249DC03EFA2C724CA3C50D90DC /* ripemd.h */,
-				D4AC488C42B3A1FC839800FC594D8464 /* rsa.h */,
-				D37E89498A28CFA2FBAC7D648A626962 /* safestack.h */,
-				C46321E9D3DA520B8E61918956F69BBB /* seed.h */,
-				639144C8A7B463E1F28C806FA6A9F8B7 /* sha.h */,
-				2157DDD2B72EA7E67DB151D8487645D8 /* srp.h */,
-				B7B43521CD8176E7AF856B2706B92257 /* srtp.h */,
-				D5897CC9D917C9626560E1BA4A061658 /* ssl.h */,
-				0ABF9EDFEB21E25FADF40D37EC7C225B /* ssl2.h */,
-				1AE12007C514A8859D01D6441B05616E /* ssl23.h */,
-				C817D85BB54E206C280B4AF2218AE7E6 /* ssl3.h */,
-				5D0DD0D74DB7E9F1DE57D2598B102006 /* stack.h */,
-				533C6098B32C0475C60FEECEDF513A08 /* symhacks.h */,
-				C30F21E5C21E23ACFAF051FAB9EDAF32 /* tls1.h */,
-				6319DD2BA0D55D0CC6D690E46D61AFAD /* ts.h */,
-				45BC6228FF5328FF1F6ACABB08C5C4B6 /* txt_db.h */,
-				CE1578C7FC295C4D4658315B5BB451B1 /* ui.h */,
-				5A28BD36E4B31A829558C1EEC33AD899 /* ui_compat.h */,
-				9D24B87101D899CF73434FE3A6916590 /* whrlpool.h */,
-				0923C0BF735E66FFB65610EFD2C0673E /* x509.h */,
-				012EC11DEA1FF666ED77C883C90089AB /* x509_vfy.h */,
-				4AB9C9995BBB28D6830F3257C757437E /* x509v3.h */,
-				6F7F98ABE349397811A48F0F6627436E /* Frameworks */,
-				2F032AB210EDC9664CCFF91F1BBAED2E /* Support Files */,
-			);
-			name = LXNOpenSSL;
-			path = LXNOpenSSL;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2F00F9176EC51D21E391A0724B19671C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				05EC895B5E8D966AE4512A61E35C2D9C /* Pods */,
+				4EAE88008BAE5C89B4CCE8CCF6EED280 /* Pods */,
 				5B73A44C06005685C2ABE4D3D51A0EEB /* Products */,
 				96E312CB2824E3FA3BDAD9A585965D87 /* Targets Support Files */,
 			);
@@ -508,17 +367,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FEE404CF0719B802C34A9474BFBA5197 /* AlipaySDK-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A9977012504A9CA9CA466C4660D99004 /* Frameworks */,
-				5FCEA45152A993E28977766ABFC4C8AC /* Resources */,
-				695710F5054987339536ACBE7D73C5DD /* Support Files */,
-			);
-			name = "AlipaySDK-iOS";
-			path = "AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -742,7 +590,7 @@
 /* Begin XCBuildConfiguration section */
 		0E18FB40752C9F616A4F0E411E8CA809 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BCCE641A2051165907485C69583A8C4 /* AlipaySDK-iOS.xcconfig */;
+			baseConfigurationReference = 883C54B16AD529260A5B1D735C2B2CDE /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -913,7 +761,7 @@
 		};
 		893BA06E28DD8009656724EAF424A897 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BCCE641A2051165907485C69583A8C4 /* AlipaySDK-iOS.xcconfig */;
+			baseConfigurationReference = 883C54B16AD529260A5B1D735C2B2CDE /* AlipaySDK-iOS.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1025,7 +873,7 @@
 		};
 		D23770CA784DDF5F4B3793809AFA1C5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1506FF43FE093EB217F6A7B4A71747CD /* LXNOpenSSL.xcconfig */;
+			baseConfigurationReference = D35D7E1EC0AAD5583F5CC5A5C8083B3C /* LXNOpenSSL.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1072,7 +920,7 @@
 		};
 		E0946C285C662D1B22FCAE15139E02AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1506FF43FE093EB217F6A7B4A71747CD /* LXNOpenSSL.xcconfig */;
+			baseConfigurationReference = D35D7E1EC0AAD5583F5CC5A5C8083B3C /* LXNOpenSSL.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

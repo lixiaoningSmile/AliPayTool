@@ -1,9 +1,9 @@
 PODS:
   - AlipaySDK-iOS (15.5.9)
-  - AliPayTool (1.0.2):
+  - AliPayTool (1.0.3):
     - AlipaySDK-iOS
     - LXNOpenSSL
-  - LXNOpenSSL (1.0.1)
+  - LXNOpenSSL (1.0.2)
 
 DEPENDENCIES:
   - AliPayTool (from `../`)
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
-  AliPayTool: 452ee427289fa4fcfa5982247d4a44749976c2d7
-  LXNOpenSSL: 59bff34ab82ecf2f1e32d4f537cd95012d66af1b
+  AliPayTool: 8b711901d3917702090ae93c94cb0f029d045fd8
+  LXNOpenSSL: d7ef03a1a1b35403105d69124d886330f2238e8d
 
 PODFILE CHECKSUM: 8c42210011165c8efa46e402d81085f1aba1dd2d
 
