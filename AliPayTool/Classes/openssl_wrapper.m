@@ -7,10 +7,10 @@
 //
 
 #import "openssl_wrapper.h"
-#import <OpenSSL/rsa.h>
-#include <OpenSSL/pem.h>
-#include <OpenSSL/bio.h>
-#include <OpenSSL/sha.h>
+#import <LXNOpenSSL/rsa.h>
+#include <LXNOpenSSL/pem.h>
+#include <LXNOpenSSL/bio.h>
+#include <LXNOpenSSL/sha.h>
 
 int rsa_sign_with_private_key_pem(char *message, int message_length
                                   , unsigned char *signature, unsigned int *signature_length

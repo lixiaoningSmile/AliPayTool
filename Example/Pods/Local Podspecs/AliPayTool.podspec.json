@@ -1,6 +1,6 @@
 {
   "name": "AliPayTool",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "支付宝支付工具",
   "description": "TODO: 支付宝支付工具",
   "homepage": "https://github.com/lixiaoningSmile/AliPayTool",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lixiaoningSmile/AliPayTool.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"
